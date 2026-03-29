@@ -3,6 +3,8 @@ import "./index.css"
 import { useEffect, useState } from "react"
 import getShinobiDex from "./data/data";
 import BarraPesquisa from "./components/BarraPesquisa";
+import Header from "./components/Header";
+import logo from "./assets/logo.PNG"
 
 
 
@@ -15,6 +17,7 @@ function App() {
 
   return (
     <>
+      <Header logo={logo} b1="SOBRE" b2="CONTATO" />
       <BarraPesquisa setShinobiDex={setShinobiDex} />
       <Lista shinobiDex={shinobiDex}/>
     </>

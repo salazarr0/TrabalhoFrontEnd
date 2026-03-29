@@ -1,7 +1,7 @@
 import naruto from "../assets/naruto.webp";
-import sasuke from "../assets/sasuke.webp";
+import sasuke from "../assets/Sasuke.webp";
 import sakura from "../assets/sakura.webp";
-import helloworld from "../assets/Kakashi.webp";
+import kakashi from "../assets/Kakashi.webp";
 import gaara from "../assets/Gaara.webp";
 import kunai from "../assets/kunai.webp";
 import shuriken from "../assets/shuriken.webp";
@@ -15,7 +15,7 @@ import byakugan from "../assets/byakugan.webp";
 import madara from "../assets/MadaraUchiha.webp";
 import rasenshuriken from "../assets/FutonRasenShuriken.webp";
 import iwagakure from "../assets/Iwagakure.webp";
-import kirikagure from "../assets/Kirigakure.webp";
+import kirikagure from "../assets/kirigakure.webp";
 import kotoamatsukami from "../assets/Kotoamatsukami.webp";
 import kubikiribocho from "../assets/Kubikiribocho.webp";
 import kumogakure from "../assets/Kumogakure.webp";
@@ -58,7 +58,7 @@ function getShinobiDex() {
       nome: "Kakashi Hatake",
       categoria: "personagem",
       descrição: "O 'Ninja Copiador' e sexto Hokage de Konoha.",
-      imagem: helloworld,
+      imagem: kakashi,
     },
     {
       id: 5,

@@ -2,7 +2,7 @@ import Card from "./Card";
 
 function Lista(props) {
     return (
-        <div className="grid grid-cols-5">
+        <div className="grid grid-cols-5 gap-8 w-fit mt-4 place-self-center">
             {props.shinobiDex.map(dex => {
                 return (
                     <Card
