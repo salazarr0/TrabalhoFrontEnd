@@ -1,4 +1,3 @@
-
 function Header(props) {
     return (
         <header className='p-4 flex place-content-between fixed top-0 left-0 w-full h-24 bg-gray-900'>

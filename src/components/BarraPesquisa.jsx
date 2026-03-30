@@ -19,7 +19,7 @@ function BarraPesquisa(props) {
 
 
     return (
-        <div className="mt-32 mb-8 place-self-center">
+        <div className="mt-32 mb-8 flex justify-center w-full">
             <form>
                 <div className="flex w-96">
                     <input
