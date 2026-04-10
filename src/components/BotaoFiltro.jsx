@@ -1,5 +1,6 @@
 import getShinobiDex from "../data/data";
 
+export let ctg = "Todos"
 function Filtros(props) {
   const categorias = [
     "Todos",
@@ -14,9 +15,11 @@ function Filtros(props) {
     const todosOsItens = getShinobiDex();
 
     if (categoriaClicada === "Todos") {
+        ctg = "Todos"
       props.setShinobiDex(todosOsItens);
     } else {
       const itensFiltrados = todosOsItens.filter((item) => {
+        ctg = categoriaClicada
         return item.categoria === categoriaClicada;
       });
       props.setShinobiDex(itensFiltrados);

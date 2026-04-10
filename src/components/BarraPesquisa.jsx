@@ -1,20 +1,41 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import getShinobiDex from "../data/data";
+import { ctc } from "./BotaoFiltro";
 
 function BarraPesquisa(props) {
 
     const [search, setSearch] = useState('')
 
+    useEffect(()=> {
+        const items = getShinobiDex();
+        const results = items.filter((item) => {
+            if (ctc == "Todos") {
+                return item.nome.toLowerCase().indexOf(search) !== -1
+            } else {
+                return item.nome.toLowerCase().indexOf(search) !== -1 && item.categoria == ctc
+            }
+        });
+        props.setShinobiDex(results);
+    }, [search]);
+
     function handleOnSubmit(e) {
 
         e.preventDefault()
         const items = getShinobiDex();
-        const results = items.filter(item => item.nome.toLowerCase().indexOf(search) !== -1);
+        const results = items.filter((item) => {
+            if (ctc == "Todos") {
+                return item.nome.toLowerCase().indexOf(search) !== -1
+            } else {
+                return item.nome.toLowerCase().indexOf(search) !== -1 && item.categoria == ctc
+            }
+
+        });
         props.setShinobiDex(results);
     }
 
     function handleSearchChange(e) {
         setSearch(e.target.value.toLowerCase())
+
     }
 
 
