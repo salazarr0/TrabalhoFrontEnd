@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import getShinobiDex from "../data/data";
-import { ctc } from "./BotaoFiltro";
+import { ctg } from "./BotaoFiltro";
 
 function BarraPesquisa(props) {
 
@@ -9,10 +9,10 @@ function BarraPesquisa(props) {
     useEffect(()=> {
         const items = getShinobiDex();
         const results = items.filter((item) => {
-            if (ctc == "Todos") {
+            if (ctg == "Todos") {
                 return item.nome.toLowerCase().indexOf(search) !== -1
             } else {
-                return item.nome.toLowerCase().indexOf(search) !== -1 && item.categoria == ctc
+                return item.nome.toLowerCase().indexOf(search) !== -1 && item.categoria == ctg
             }
         });
         props.setShinobiDex(results);
@@ -23,10 +23,10 @@ function BarraPesquisa(props) {
         e.preventDefault()
         const items = getShinobiDex();
         const results = items.filter((item) => {
-            if (ctc == "Todos") {
+            if (ctg == "Todos") {
                 return item.nome.toLowerCase().indexOf(search) !== -1
             } else {
-                return item.nome.toLowerCase().indexOf(search) !== -1 && item.categoria == ctc
+                return item.nome.toLowerCase().indexOf(search) !== -1 && item.categoria == ctg
             }
 
         });

@@ -12,6 +12,7 @@ function Lista(props) {
                         id={dex.id}
                         cat={dex.categoria}
                         imagem={dex.imagem}
+                        filiacao={dex.filiacao}
                     />
                 )
             })}
