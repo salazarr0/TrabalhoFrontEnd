@@ -36,7 +36,8 @@ function getShinobiDex() {
       nome: "Naruto Uzumaki",
       categoria: "personagem",
       filiacao: "Folha",
-      descrição: "Sétimo Hokage e Jinchūriki da Kurama.",
+      nivel: ["Genin"],
+      descrição: "Jinchūriki da Kurama.",
       imagem: naruto,
     },
     {
@@ -44,7 +45,8 @@ function getShinobiDex() {
       nome: "Sasuke Uchiha",
       categoria: "personagem",
       filiacao: "Nukenin",
-      descrição: "Único sobrevivente do clã Uchiha e portador do Rinnegan.",
+      nivel: ["Nukenin", "Genin"],
+      descrição: "Desertor da Folha.",
       imagem: sasuke,
     },
     {
@@ -52,7 +54,8 @@ function getShinobiDex() {
       nome: "Sakura Haruno",
       categoria: "personagem",
       filiacao: "Folha",
-      descrição: "Ninja médica de elite e discípula de Tsunade.",
+      nivel: ["Chunin"],
+      descrição: "Ninja médica.",
       imagem: sakura,
     },
     {
@@ -60,7 +63,8 @@ function getShinobiDex() {
       nome: "Kakashi Hatake",
       categoria: "personagem",
       filiacao: "Folha",
-      descrição: "O 'Ninja Copiador' e sexto Hokage de Konoha.",
+      nivel: ["Jonin"],
+      descrição: "O Ninja Copiador.",
       imagem: kakashi,
     },
     {
@@ -68,7 +72,8 @@ function getShinobiDex() {
       nome: "Gaara",
       categoria: "personagem",
       filiacao: "Areia",
-      descrição: "Quinto Kazekage e antigo Jinchūriki do Shukaku.",
+      nivel: ["Kage"],
+      descrição: "Líder da Areia.",
       imagem: gaara,
     },
     {
@@ -76,7 +81,8 @@ function getShinobiDex() {
       nome: "Kunai",
       categoria: "arma",
       filiacao: null,
-      descrição: "Lâmina ninja versátil usada para combate próximo ou arremesso.",
+      nivel: [],
+      descrição: "Lâmina ninja.",
       imagem: kunai,
     },
     {
@@ -84,7 +90,8 @@ function getShinobiDex() {
       nome: "Shuriken",
       categoria: "arma",
       filiacao: null,
-      descrição: "Estrela de metal afiada usada para distração e ataques à distância.",
+      nivel: [],
+      descrição: "Estrela de metal.",
       imagem: shuriken,
     },
     {
@@ -92,7 +99,8 @@ function getShinobiDex() {
       nome: "Konohagakure",
       categoria: "aldeia",
       filiacao: null,
-      descrição: "A Vila Oculta da Folha, localizada no País do Fogo.",
+      nivel: [],
+      descrição: "A Vila Oculta da Folha.",
       imagem: konohagakure,
     },
     {
@@ -100,7 +108,8 @@ function getShinobiDex() {
       nome: "Sharingan",
       categoria: "kekkei-genkai",
       filiacao: null,
-      descrição: "Olho hipnótico do clã Uchiha que permite prever movimentos.",
+      nivel: [],
+      descrição: "Olho hipnótico.",
       imagem: sharingan,
     },
     {
@@ -108,7 +117,8 @@ function getShinobiDex() {
       nome: "Rasengan",
       categoria: "jutsu",
       filiacao: null,
-      descrição: "Esfera de chakra rotativo concentrado na palma da mão.",
+      nivel: [],
+      descrição: "Esfera de chakra.",
       imagem: rasengan,
     },
     {
@@ -116,7 +126,8 @@ function getShinobiDex() {
       nome: "Itachi Uchiha",
       categoria: "personagem",
       filiacao: "Akatsuki",
-      descrição: "Prodígio do clã Uchiha que operou nas sombras pela paz.",
+      nivel: ["Nukenin", "Jonin"],
+      descrição: "Membro da Akatsuki.",
       imagem: itachi,
     },
     {
@@ -124,7 +135,8 @@ function getShinobiDex() {
       nome: "Jiraiya",
       categoria: "personagem",
       filiacao: "Folha",
-      descrição: "Um dos Três Sannin Lendários e mestre de Naruto.",
+      nivel: ["Sannin"],
+      descrição: "Sábio dos Sapos.",
       imagem: jiraya,
     },
     {
@@ -132,7 +144,8 @@ function getShinobiDex() {
       nome: "Chidori",
       categoria: "jutsu",
       filiacao: null,
-      descrição: "Relâmpago concentrado na mão que produz som de mil pássaros.",
+      nivel: [],
+      descrição: "Mil pássaros.",
       imagem: chidori,
     },
     {
@@ -140,7 +153,8 @@ function getShinobiDex() {
       nome: "Samehada",
       categoria: "arma",
       filiacao: null,
-      descrição: "Espada viva que absorve chakra, usada por Kisame Hoshigaki.",
+      nivel: [],
+      descrição: "Espada viva.",
       imagem: samehada,
     },
     {
@@ -148,7 +162,8 @@ function getShinobiDex() {
       nome: "Sunagakure",
       categoria: "aldeia",
       filiacao: null,
-      descrição: "A Vila Oculta da Areia, localizada no País do Vento.",
+      nivel: [],
+      descrição: "A Vila Oculta da Areia.",
       imagem: sunagakure,
     },
     {
@@ -156,7 +171,8 @@ function getShinobiDex() {
       nome: "Byakugan",
       categoria: "kekkei-genkai",
       filiacao: null,
-      descrição: "Olho branco do clã Hyūga que concede visão de 360 graus.",
+      nivel: [],
+      descrição: "Visão de 360 graus.",
       imagem: byakugan,
     },
     {
@@ -164,7 +180,8 @@ function getShinobiDex() {
       nome: "Madara Uchiha",
       categoria: "personagem",
       filiacao: "Folha",
-      descrição: "Líder lendário dos Uchiha e um dos fundadores de Konoha.",
+      nivel: ["Kage", "Lendário"],
+      descrição: "Fundador lendário.",
       imagem: madara,
     },
     {
@@ -172,7 +189,8 @@ function getShinobiDex() {
       nome: "Pain",
       categoria: "personagem",
       filiacao: "Akatsuki",
-      descrição: "Líder da Akatsuki que busca a paz através da dor.",
+      nivel: ["Nukenin"],
+      descrição: "Líder da Akatsuki.",
       imagem: pain,
     },
     {
@@ -180,7 +198,8 @@ function getShinobiDex() {
       nome: "Amaterasu",
       categoria: "jutsu",
       filiacao: null,
-      descrição: "Chamas negras inextinguíveis disparadas pelo Mangekyō Sharingan.",
+      nivel: [],
+      descrição: "Chamas negras.",
       imagem: amaterasu,
     },
     {
@@ -188,7 +207,8 @@ function getShinobiDex() {
       nome: "Pergaminho de Invocação",
       categoria: "arma",
       filiacao: null,
-      descrição: "Item usado para selar objetos ou invocar criaturas.",
+      nivel: [],
+      descrição: "Item de invocação.",
       imagem: invocacao,
     },
     {
@@ -196,7 +216,8 @@ function getShinobiDex() {
       nome: "Kirigakure",
       categoria: "aldeia",
       filiacao: null,
-      descrição: "A Vila Oculta da Névoa, lar dos Sete Espadachins Lendários.",
+      nivel: [],
+      descrição: "Vila da Névoa.",
       imagem: kirikagure,
     },
     {
@@ -204,7 +225,8 @@ function getShinobiDex() {
       nome: "Rinnegan",
       categoria: "kekkei-genkai",
       filiacao: null,
-      descrição: "O mais nobre dos 'Três Grandes Dōjutsu', portado pelo Sábio dos Seis Caminhos.",
+      nivel: [],
+      descrição: "Dōjutsu supremo.",
       imagem: rinnegan,
     },
     {
@@ -212,7 +234,8 @@ function getShinobiDex() {
       nome: "Orochimaru",
       categoria: "personagem",
       filiacao: "Som",
-      descrição: "Sannin desertor em busca da imortalidade e do conhecimento total.",
+      nivel: ["Sannin", "Nukenin"],
+      descrição: "Sannin desertor.",
       imagem: orochinho,
     },
     {
@@ -220,7 +243,8 @@ function getShinobiDex() {
       nome: "Kubikiribōchō",
       categoria: "arma",
       filiacao: null,
-      descrição: "A enorme Lâmina do Executor que se regenera com o sangue das vítimas.",
+      nivel: [],
+      descrição: "Lâmina do Executor.",
       imagem: kubikiribocho,
     },
     {
@@ -228,7 +252,8 @@ function getShinobiDex() {
       nome: "Kumogakure",
       categoria: "aldeia",
       filiacao: null,
-      descrição: "A Vila Oculta da Nuvem, situada em altas montanhas no País do Trovão.",
+      nivel: [],
+      descrição: "Vila da Nuvem.",
       imagem: kumogakure,
     },
     {
@@ -236,7 +261,8 @@ function getShinobiDex() {
       nome: "Tsunade Senju",
       categoria: "personagem",
       filiacao: "Folha",
-      descrição: "Quinta Hokage, neta do Primeiro e maior ninja médica do mundo.",
+      nivel: ["Sannin", "Kage"],
+      descrição: "Maior ninja médica.",
       imagem: tsunade,
     },
     {
@@ -244,7 +270,8 @@ function getShinobiDex() {
       nome: "Kotoamatsukami",
       categoria: "jutsu",
       filiacao: null,
-      descrição: "Poderoso genjutsu do Mangekyō Sharingan de Shisui Uchiha.",
+      nivel: [],
+      descrição: "Genjutsu supremo.",
       imagem: kotoamatsukami,
     },
     {
@@ -252,7 +279,8 @@ function getShinobiDex() {
       nome: "Mokuton",
       categoria: "kekkei-genkai",
       filiacao: null,
-      descrição: "Liberação de Madeira, técnica única do Primeiro Hokage, Hashirama Senju.",
+      nivel: [],
+      descrição: "Liberação de madeira.",
       imagem: mokuton,
     },
     {
@@ -260,7 +288,8 @@ function getShinobiDex() {
       nome: "Iwagakure",
       categoria: "aldeia",
       filiacao: null,
-      descrição: "A Vila Oculta da Pedra, localizada no País da Terra.",
+      nivel: [],
+      descrição: "Vila da Pedra.",
       imagem: iwagakure,
     },
     {
@@ -268,7 +297,8 @@ function getShinobiDex() {
       nome: "Fueton: Rasenshuriken",
       categoria: "jutsu",
       filiacao: null,
-      descrição: "A evolução do Rasengan que utiliza a natureza de vento.",
+      nivel: [],
+      descrição: "Evolução do Rasengan.",
       imagem: rasenshuriken,
     },
   ];
