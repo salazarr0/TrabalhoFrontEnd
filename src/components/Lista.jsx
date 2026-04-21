@@ -13,6 +13,10 @@ function Lista(props) {
                         cat={dex.categoria}
                         imagem={dex.imagem}
                         filiacao={dex.filiacao}
+                        clanJutsu={dex.clanJutsu}
+                        tipoArma={dex.tipoArma}
+                        paisAldeia={dex.paisAldeia}
+                        elementoJutsu={dex.elementoJutsu}
                     />
                 )
             })}
