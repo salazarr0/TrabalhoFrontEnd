@@ -8,7 +8,7 @@ function BarraPesquisa(props) {
   useEffect(() => {
 
     props.setFiltros(prev => ({ ...prev, search }));
-  }, [search, props]);
+  }, [search]);
 
   function handleSearchChange(e) {
     setSearch(e.target.value.toLowerCase());

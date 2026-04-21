@@ -22,9 +22,12 @@ function App() {
     
     const filtrados = todosOsItens.filter((item) => {
       const matchNome = item.nome.toLowerCase().includes(filtrosAtivos.search);
-      const matchCategoria = ctg.includes("Todos") || ctg.includes(item.categoria);
-      const matchFiliacao = filtrosAtivos.filiacoes.length === 0 || filtrosAtivos.filiacoes.includes(item.filiacao);
-      const matchNivel = filtrosAtivos.niveis.length === 0 || (item.nivel && item.nivel.some(n => filtrosAtivos.niveis.includes(n)));
+      const categoriaArr = Array.isArray(item.categoria) ? item.categoria : (item.categoria ? [item.categoria] : []);
+      const matchCategoria = ctg.includes("Todos") || ctg.every(c => categoriaArr.includes(c));
+      const filiacaoArr = Array.isArray(item.filiacao) ? item.filiacao : (item.filiacao ? [item.filiacao] : []);
+      const nivelArr = Array.isArray(item.nivel) ? item.nivel : (item.nivel ? [item.nivel] : []);
+      const matchFiliacao = filtrosAtivos.filiacoes.length === 0 || filtrosAtivos.filiacoes.every(f => filiacaoArr.includes(f));
+      const matchNivel = filtrosAtivos.niveis.length === 0 || filtrosAtivos.niveis.every(n => nivelArr.includes(n));
       
       return matchNome && matchCategoria && matchFiliacao && matchNivel;
     });

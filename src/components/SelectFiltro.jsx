@@ -23,7 +23,7 @@ function SelectFiltro(props) {
       filiacoes: filiacoes,
       niveis: niveis
     }));
-  }, [filiacoes, niveis, props]);
+  }, [filiacoes, niveis]);
 
   return (
     <div className="flex flex-col items-center gap-3 mb-6">

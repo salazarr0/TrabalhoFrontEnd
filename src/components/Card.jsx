@@ -4,7 +4,7 @@ import { CardTemaPorCategoria } from "./CardTemaPorCategoria";
 function Card(props) {
 
     const tema = CardTemaPorCategoria[props.cat] || { texto: 'text-gray-800', borda: 'border-gray-300' };
-    const filiacao = CardTemaFiliacao[props.filiacao] || { texto: 'text-gray-800', borda: 'border-gray-300' }
+    const filiacao = CardTemaFiliacao[Array.isArray(props.filiacao) ? props.filiacao[0] : props.filiacao] || { texto: 'text-gray-800', borda: 'border-gray-300' }
 
     return (
         <div className='p-0 flex justify-center'>
@@ -12,7 +12,7 @@ function Card(props) {
                 <div className="flex items-start w-full px-4 pt-4">
                     {props.filiacao && (
                         <p className={`${filiacao.texto} ${filiacao.borda} font-bold p-2 border-4 rounded-2xl uppercase text-[10px]`}>
-                            {props.filiacao}
+                            {Array.isArray(props.filiacao) ? props.filiacao.join(" - ") : props.filiacao}
                         </p>
                     )}
                     <p className={`${tema.texto} ${tema.borda} ml-auto font-bold p-2 border-4 rounded-2xl uppercase text-[10px]`}>
