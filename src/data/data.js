@@ -28,6 +28,36 @@ import tsunade from "../assets/tsunade.webp";
 import amaterasu from "../assets/amaterasu.webp";
 import sharingan from "../assets/Sharingan.webp";
 import rasengan from "../assets/Rasengan_ Naruto.webp";
+import shino from "../assets/Shino.webp";
+import choji from "../assets/choji.webp";
+import deidara from "../assets/deidara.webp";
+import haku from "../assets/haku.webp";
+import hashirama from "../assets/hashirama.webp";
+import hidan from "../assets/hidan.webp";
+import hinata from "../assets/hinata-hyuga.webp";
+import hiruzen from "../assets/hiruzen-sarutobi.webp";
+import ino from "../assets/ino-yamanaka.webp";
+import kakuzu from "../assets/kakuzu.webp";
+import kankuro from "../assets/kankuro.webp";
+import kiba from "../assets/kiba-inuzuka.webp";
+import kisame from "../assets/kisame.webp";
+import konan from "../assets/konan.webp";
+import minato from "../assets/minato.webp";
+import neji from "../assets/neji.webp";
+import obito from "../assets/obito-uchiha.webp";
+import rocklee from "../assets/rockLee.webp";
+import sasori from "../assets/sasori.webp";
+import shikamaru from "../assets/shikamaru-nara.webp";
+import temari from "../assets/temari.webp";
+import tobirama from "../assets/tobirama-senju.webp";
+import zabuza from "../assets/zabuza-momochi.webp";
+import amegakure from "../assets/amegakure.webp";
+import hyoton from "../assets/hyoton.webp";
+import shikotsumyaku from "../assets/shikotsumyaku.webp";
+import kamui from "../assets/kamui.webp";
+import edotensei from "../assets/edo-tensei.webp";
+import hiramekarei from "../assets/hiramekarei.webp";
+import oitoPortoes from "../assets/oitoPortoesInternos.webp";
 
 export const getShinobiDex = [
   {
@@ -323,5 +353,285 @@ export const getShinobiDex = [
     clanJutsu: "Uzumaki",
     descrição: "Evolução do Rasengan.",
     imagem: rasenshuriken,
+  },
+  {
+    id: 31,
+    nome: "Shino Aburame",
+    categoria: "personagem",
+    filiacao: "Folha",
+    nivel: ["Chunin"],
+    descrição: "Usuário de insetos.",
+    imagem: shino,
+  },
+  {
+    id: 32,
+    nome: "Choji Akimichi",
+    categoria: "personagem",
+    filiacao: "Folha",
+    nivel: ["Chunin"],
+    descrição: "Membro do clã Akimichi.",
+    imagem: choji,
+  },
+  {
+    id: 33,
+    nome: "Deidara",
+    categoria: "personagem",
+    filiacao: "Akatsuki",
+    nivel: ["Jonin"],
+    descrição: "Artista de explosivos.",
+    imagem: deidara,
+  },
+  {
+    id: 34,
+    nome: "Haku",
+    categoria: "personagem",
+    filiacao: "Nukenin",
+    nivel: ["Jonin"],
+    descrição: "Kekkei genkai de gelo.",
+    imagem: haku,
+  },
+  {
+    id: 35,
+    nome: "Hashirama Senju",
+    categoria: "personagem",
+    filiacao: "Folha",
+    nivel: ["Kage", "Sennin"],
+    descrição: "Primeiro Hokage.",
+    imagem: hashirama,
+  },
+  {
+    id: 36,
+    nome: "Hidan",
+    categoria: "personagem",
+    filiacao: "Akatsuki",
+    nivel: ["Jonin"],
+    descrição: "Membro imortal da Akatsuki.",
+    imagem: hidan,
+  },
+  {
+    id: 37,
+    nome: "Hinata Hyuga",
+    categoria: "personagem",
+    filiacao: "Folha",
+    nivel: ["Genin", "Chunin"],
+    descrição: "Membro do clã Hyuga.",
+    imagem: hinata,
+  },
+  {
+    id: 38,
+    nome: "Hiruzen Sarutobi",
+    categoria: "personagem",
+    filiacao: "Folha",
+    nivel: ["Kage", "Jonin"],
+    descrição: "Terceiro Hokage.",
+    imagem: hiruzen,
+  },
+  {
+    id: 39,
+    nome: "Ino Yamanaka",
+    categoria: "personagem",
+    filiacao: "Folha",
+    nivel: ["Genin", "Chunin"],
+    descrição: "Kunoichi do clã Yamanaka.",
+    imagem: ino,
+  },
+  {
+    id: 40,
+    nome: "Kakuzu",
+    categoria: "personagem",
+    filiacao: "Akatsuki",
+    nivel: ["Jonin"],
+    descrição: "Usuário de múltiplos corações.",
+    imagem: kakuzu,
+  },
+  {
+    id: 41,
+    nome: "Kankuro",
+    categoria: "personagem",
+    filiacao: "Areia",
+    nivel: ["Genin", "Jonin"],
+    descrição: "Usuário de fantoches.",
+    imagem: kankuro,
+  },
+  {
+    id: 42,
+    nome: "Kiba Inuzuka",
+    categoria: "personagem",
+    filiacao: "Folha",
+    nivel: ["Genin", "Chunin"],
+    descrição: "Membro do clã Inuzuka.",
+    imagem: kiba,
+  },
+  {
+    id: 43,
+    nome: "Kisame Hoshigaki",
+    categoria: "personagem",
+    filiacao: "Akatsuki",
+    nivel: ["Jonin"],
+    descrição: "Membro da Akatsuki.",
+    imagem: kisame,
+  },
+  {
+    id: 44,
+    nome: "Konan",
+    categoria: "personagem",
+    filiacao: "Akatsuki",
+    nivel: ["Jonin"],
+    descrição: "Membro feminino da Akatsuki.",
+    imagem: konan,
+  },
+  {
+    id: 45,
+    nome: "Minato Namikaze",
+    categoria: "personagem",
+    filiacao: "Folha",
+    nivel: ["Kage", "Jonin"],
+    descrição: "Quarto Hokage e pai de Naruto.",
+    imagem: minato,
+  },
+  {
+    id: 46,
+    nome: "Neji Hyuga",
+    categoria: "personagem",
+    filiacao: "Folha",
+    nivel: ["Genin", "Jonin"],
+    descrição: "Gênio do clã Hyuga.",
+    imagem: neji,
+  },
+  {
+    id: 47,
+    nome: "Obito Uchiha",
+    categoria: "personagem",
+    filiacao: ["Folha", "Akatsuki"],
+    nivel: ["Genin", "Jonin"],
+    descrição: "Membro da Akatsuki.",
+    imagem: obito,
+  },
+  {
+    id: 48,
+    nome: "Rock Lee",
+    categoria: "personagem",
+    filiacao: "Folha",
+    nivel: ["Genin", "Jonin"],
+    descrição: "Especialista em Taijutsu.",
+    imagem: rocklee,
+  },
+  {
+    id: 49,
+    nome: "Sasori",
+    categoria: "personagem",
+    filiacao: "Akatsuki",
+    nivel: ["Jonin"],
+    descrição: "Mestre de fantoches.",
+    imagem: sasori,
+  },
+  {
+    id: 50,
+    nome: "Shikamaru Nara",
+    categoria: "personagem",
+    filiacao: "Folha",
+    nivel: ["Genin", "Jonin"],
+    descrição: "Estrategista do clã Nara.",
+    imagem: shikamaru,
+  },
+  {
+    id: 51,
+    nome: "Temari",
+    categoria: "personagem",
+    filiacao: "Areia",
+    nivel: ["Genin", "Jonin"],
+    descrição: "Kunoichi da Areia.",
+    imagem: temari,
+  },
+  {
+    id: 52,
+    nome: "Tobirama Senju",
+    categoria: "personagem",
+    filiacao: "Folha",
+    nivel: ["Kage", "Jonin"],
+    descrição: "Segundo Hokage.",
+    imagem: tobirama,
+  },
+  {
+    id: 53,
+    nome: "Zabuza Momochi",
+    categoria: "personagem",
+    filiacao: "Nukenin",
+    nivel: ["Jonin"],
+    descrição: "Assassino da Névoa.",
+    imagem: zabuza,
+  },
+  {
+    id: 54,
+    nome: "Amegakure",
+    categoria: "aldeia",
+    filiacao: null,
+    nivel: [],
+    paisAldeia: "País da Chuva",
+    descrição: "A Vila da Chuva.",
+    imagem: amegakure,
+  },
+  {
+    id: 55,
+    nome: "Hyoton",
+    categoria: "kekkei-genkai",
+    filiacao: null,
+    nivel: [],
+    clanJutsu: "Yuki",
+    descrição: "Liberação de gelo.",
+    imagem: hyoton,
+  },
+  {
+    id: 56,
+    nome: "Shikotsumyaku",
+    categoria: "kekkei-genkai",
+    filiacao: null,
+    nivel: [],
+    clanJutsu: "Kaguya",
+    descrição: "Manipulação de ossos.",
+    imagem: shikotsumyaku,
+  },
+  {
+    id: 57,
+    nome: "Kamui",
+    categoria: "jutsu",
+    filiacao: null,
+    nivel: [],
+    elementoJutsu: "Espaço-Tempo",
+    clanJutsu: "Uchiha",
+    descrição: "Jutsu de transporte espacial.",
+    imagem: kamui,
+  },
+  {
+    id: 58,
+    nome: "Edo Tensei",
+    categoria: "jutsu",
+    filiacao: null,
+    nivel: [],
+    elementoJutsu: "Necromancia",
+    clanJutsu: "Senju",
+    descrição: "Reencarnação de Espíritos.",
+    imagem: edotensei,
+  },
+  {
+    id: 59,
+    nome: "Oito Portões Internos",
+    categoria: "jutsu",
+    filiacao: null,
+    nivel: [],
+    elementoJutsu: "Taijutsu",
+    clanJutsu: null,
+    descrição: "Abertura dos 8 portões de chakra.",
+    imagem: oitoPortoes,
+  },
+  {
+    id: 60,
+    nome: "Hiramekarei",
+    categoria: "arma",
+    filiacao: null,
+    nivel: [],
+    tipoArma: "Espada",
+    descrição: "Espada do Executador da Névoa.",
+    imagem: hiramekarei,
   },
 ];
