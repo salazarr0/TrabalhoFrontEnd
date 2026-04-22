@@ -3,7 +3,6 @@ import { useShinobiFilter } from "./hooks/useShinobiFilter";
 import Header from "./components/Header";
 import BarraPesquisa from "./components/BarraPesquisa";
 import Filtros from "./components/Filtros";
-import SelectFiltro from "./components/SelectFiltro";
 import Lista from "./components/Lista";
 import logo from "./assets/logo.PNG";
 
@@ -27,8 +26,7 @@ function App() {
       <Header logo={logo} b1="SOBRE" b2="CONTATO" />
       <main className="pt-32">
         <BarraPesquisa setFiltros={setFiltrosAtivos} />
-        <SelectFiltro setFiltros={setFiltrosAtivos} />
-        <Filtros ctg={ctg} setCtg={setCtg} />
+        <Filtros ctg={ctg} setCtg={setCtg} filtrosAtivos={filtrosAtivos} setFiltros={setFiltrosAtivos} />
         <Lista shinobiDex={shinobiDex} ctg={ctg} />
       </main>
     </div>

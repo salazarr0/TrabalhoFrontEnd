@@ -1,9 +1,9 @@
-import { CardTemaClanJutsu } from "./CardTemaClanJutsu";
-import { CardTemaElementoJutsu } from "./CardTemaElementoJutsu";
-import { CardTemaFiliacao } from "./CardTemaFiliacao";
-import { CardTemaPaisAldeia } from "./CardTemaPaisAldeia";
-import { CardTemaPorCategoria } from "./CardTemaPorCategoria";
-import { CardTemaTipoArma } from "./CardTemaTipoArma";
+import { CardTemaClanJutsu } from "../themes/CardTemaClanJutsu";
+import { CardTemaElementoJutsu } from "../themes/CardTemaElementoJutsu";
+import { CardTemaFiliacao } from "../themes/CardTemaFiliacao";
+import { CardTemaPaisAldeia } from "../themes/CardTemaPaisAldeia";
+import { CardTemaPorCategoria } from "../themes/CardTemaPorCategoria";
+import { CardTemaTipoArma } from "../themes/CardTemaTipoArma";
 
 function Card(props) {
 
